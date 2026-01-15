@@ -85,7 +85,7 @@ reward_points int
 ### 2. Data Loading
 The CSV file was loaded using `LOAD DATA LOCAL INFILE`.
 
-```
+```sql
 
 load data local infile 
 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/sales_datasheet.CSV'
@@ -108,7 +108,7 @@ Data anomalies were identified, including:
 
 These checks help ensure data reliability before analysis.
 
-```
+```sql
 
 SELECT
 	*
@@ -137,7 +137,7 @@ SQL queries were written to answer each CEO-level business question, focusing on
 - Product performance
 - Branch efficiency
 
-```
+```sql
 -- =========================== --
 -- 1 - TOTAL REVENUE IN A YEAR --
 -- =========================== --
@@ -150,7 +150,7 @@ from
 
 ```
 
-```
+```sql
 -- ============================= --
 -- 2 - STORE PERFORMANCE IN YEAR --
 -- ============================= --
@@ -168,7 +168,7 @@ order by
 ;
 ```
 
-```
+```sql
 -- ========================= --
 -- 3 - Most valuable product --
 -- ========================= --
@@ -186,7 +186,7 @@ order by
 ;
 ```
 
-```
+```sql
 -- ========================== --
 -- 4 - Most Valuable Customer --
 -- ========================== --
@@ -203,7 +203,7 @@ group by
 ;
 ```
 
-```
+```sql
 -- ================================ --
 -- 5 - Different Gender and Revenue --
 -- ================================ --
@@ -220,7 +220,7 @@ group by
 ;
 ```
 
-```
+```sql
 -- ========================= --
 -- 6 - Most Efficient Branch --
 -- ========================= --
@@ -238,7 +238,7 @@ order by
 ;
 ```
 
-```
+```sql
 -- ============================ --
 -- 7 - Top Product Every Branch --
 -- ============================ --
