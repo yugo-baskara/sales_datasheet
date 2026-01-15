@@ -275,6 +275,8 @@ order by
 ---
 
 ## Project Structure
+
+```
 sales_datasheet/
 │
 ├── data/
@@ -286,5 +288,6 @@ sales_datasheet/
 │   └── 4_business_analysis.sql
 │
 └── README.md
+```
 
 ---
