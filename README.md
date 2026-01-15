@@ -59,7 +59,7 @@ The raw table is intentionally created without constraints to preserve data inte
 ### 1. Database & Table Creation
 A raw table was created to mirror the CSV structure without assumptions or transformations.
 
-```
+``` sql
 
 create table if not exists
 	portofolio.sales_datasheet_raw
